@@ -18,5 +18,5 @@ RUN apt-get update \
         libuuid1 \
         zlib1g
 
-CMD ["chmod 755 ./donet-mvc"]
+CMD ["./donet-mvc"]
 
